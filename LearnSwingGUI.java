@@ -1,5 +1,5 @@
-import javax.swing.*; //Import the whole Swing Library that includes JFrame, JLabel and more!
-import java.awt.*;
+import java.awt.*; //Import the whole Swing Library that includes JFrame, JLabel and more!
+import javax.swing.*;
 
 public class LearnSwingGUI 
 {
@@ -15,7 +15,7 @@ public class LearnSwingGUI
         frame.setVisible(true);  //Make the Frame visible
 
         ImageIcon image = new ImageIcon("Jean Gulag.png"); //Create an ImageIcon on the top left
-        frame.setIconImage(image.getimage());   //Change icon of the frame
-        frame.getContentPane().setBackground(Color.lightblue); //Change color of background
+        frame.setIconImage(image.getImage());   //Change icon of the frame
+        frame.getContentPane().setBackground(new Color(215,232,253)); //Change color of background
     }
 }

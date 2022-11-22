@@ -14,8 +14,11 @@ public class LearnSwingGUI
         //frame.setResizable(false);     // If false you prevent the frame from being resized
         frame.setVisible(true);  //Make the Frame visible
 
-        ImageIcon image = new ImangeIcon("Jean Gulag.png"); //Create an ImageIcon on the top left
-        frame.setIconImage(image.getimage());   //Change icon of the frame
-        frame.getContentPane().setBackground(Color.lightblue); //Change color of background
+        JPanel panel =  new JPanel();
+        panel.setBackground(new Color(123, 3, 20));
+
+        ImageIcon image = new ImageIcon("Jean Gulag.png"); //Create an ImageIcon on the top left
+        frame.setIconImage(image.getImage());   //Change icon of the frame
+        frame.getContentPane().setBackground(new Color(123,50,200,90)); //Change color of background
     }
 }

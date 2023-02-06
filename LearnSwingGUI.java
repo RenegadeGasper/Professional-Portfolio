@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 import javax.swing.*; //Import the whole Swing Library that includes JFrame, JLabel and more!
-=======
-
->>>>>>> Stashed changes
 import java.awt.*;
 
 public class LearnSwingGUI 
@@ -23,7 +19,7 @@ public class LearnSwingGUI
         frame.getContentPane().setBackground(new Color(215,232,253)); //Change color of background
          */
 //--------- Chapter 2 -- JLabel ------------------------------------------------------------------------------------------       
-        /*JLabel label = new JLabel(); // Create a label
+        JLabel label = new JLabel(); // Create a label
         label.setText("How fat is your shmeat?"); // Set text of label
         frame.add(label); // Adds it manually
 
@@ -40,7 +36,7 @@ public class LearnSwingGUI
         Border border = BorderFactory.createLineBorder(Color.blue, 3);
         label.setBorder(border);
         label.setVerticalAlignment(JLabel.CENTER); //Set Vertical Position of icon + text within label
-        label.setHorizontalAlignment(JLabel.CENTER); //Set Horizontal Position of icon + text within label */
+        label.setHorizontalAlignment(JLabel.CENTER); //Set Horizontal Position of icon + text within label 
 
     }
 }

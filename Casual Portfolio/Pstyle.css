@@ -36,16 +36,6 @@ p{
     margin: auto
 }
 
-div {
-  background-color: salmon;
-  width: 40%;
-  left: 0;
-  right: 0;
-  margin: 20px;
-  margin: auto;
-  border:solid;
-  padding: 20px;
-}
 
 * {
     box-sizing: border-box;

@@ -1,6 +1,6 @@
 function msg()
 {
-    alert("U tryna go on a date?");
+    alert("You tryna go on a date to see the new Antman and the Wasp: Quantumania movie?");
 }
 
 let slideIndex = 1;

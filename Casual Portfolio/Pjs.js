@@ -1,6 +1,6 @@
 function msg()
 {
-    alert("You tryna go on a date to see the new Antman and the Wasp: Quantumania movie?");
+    alert("You tryna go on a date to see the new Antman and the Wasp: Quantumania movie? (with rizz)");
 }
 
 let slideIndex = 1;

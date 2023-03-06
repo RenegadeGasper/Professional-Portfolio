@@ -1,31 +1,33 @@
-.hobi{
+body{
     background-color: black;
-  }
-  
-  .hobby{
     margin: 0px;
     height: 100vh;
     display: grid;
     place-items: center;
-    
-    left: 0;
-    right: 0;
-    margin: auto
-  }
-  
+}
+  .card-groups,
   .card-group,
   .card { 
     aspect-ratio: 5 / 7;
   }
   
+  .card-groups,
   .card-group,
   .big-card { 
     width: 30vmin;
+  }
+
+  .card-group{
+    position: absolute;
   }
   
   .card{
     background-color: rgba(255, 255, 255, 0.5);
     position:absolute;
+    transition: transform 800ms cubic-bezier(.05,.43,.25,.95);
+
+    background-position: center;
+    background-size: cover;
   }
   
   .big-card{
@@ -36,26 +38,78 @@
   .little-card{
     width: 12vmin;
     border-radius: 2vmin;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
   }
   
   .big-card:nth-child(2){
+    background-image: url("./BlueStacks/ProfessionalCoder.jpg"); 
     transform: translateX(-10%) rotate(-1deg);
   }
   
   .big-card:nth-child(4){
+    background-image: url("./BlueStacks/Shower.png"); 
     transform: rotate(-2deg);
   }
   
   .big-card:nth-child(6){
+    background-image: url("./BlueStacks/Ninjas.jpg"); 
     transform: translateX(-6%) rotate(-3deg);
   }
   
   .big-card:nth-child(8){
+    background-image: url("./BlueStacks/0359Absol-Mega.png"); 
     transform: translateX(10%,3%) rotate(5deg);
   }
   
-  
-  
+.card-group:hover > .big-card:nth-child(2){
+  transform: translate(-75%, 16%) rotate(-24deg);
+}
+
+.card-group:hover > .big-card:nth-child(4){
+  transform: translate(-25%, 8%) rotate(-8deg);
+}
+.card-group:hover > .big-card:nth-child(6){
+  transform: translate(25%, 8%) rotate(8deg);
+}
+.card-group:hover > .big-card:nth-child(8){
+  transform: translate(75%, 16%) rotate(24deg);
+}
+
+
+.card-group:hover > .little-card:nth-child(1){
+  transform: translate(200%, -160%) rotate(-15deg);
+}
+.card-group:hover > .little-card:nth-child(3){
+  transform: translate(160%, 170%) rotate(15deg);
+}
+.card-group:hover > .little-card:nth-child(5){
+  transform: translate(-200%, -170%) rotate(15deg);
+}
+.card-group:hover > .little-card:nth-child(7){
+  transform: translate(-280%, 140%) rotate(-15deg);
+}
+
+
+
+
+.card-swiper-buttons{
+  margin-top: 8vmin;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
   .navi {
     overflow: hidden;
     background-color: rgb(66, 103, 112);

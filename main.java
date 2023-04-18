@@ -1,3 +1,56 @@
+
+public class Main {
+    // boolean rev(String str1, String str2){
+    //     String str3;
+    //     char temp;
+
+    //     for(int x = str1.length();true;x--)
+    //     {
+    //         temp = str1.charAt(x);
+    //         str3 = temp + str3;
+    //     }
+    // }
+
+    public static void main(String[] args) {
+        System.out.println("x");
+        // String str1, str2;
+        // Scanner scan = new Scanner(System.in);
+        
+        // rev reverse = new rev();
+
+        // System.out.println("What is the first string?");
+
+
+
+        
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*import javax.swing.*;
 
 public class MyFrame extends JFrame 

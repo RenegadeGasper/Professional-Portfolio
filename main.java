@@ -7,7 +7,7 @@ public class Main {
     //     for(int x = str1.length();true;x--)
     //     {
     //         temp = str1.charAt(x);
-    //         str3 = temp + str3;
+    //         str3 = temp + str3; 
     //     }
     // }
 
